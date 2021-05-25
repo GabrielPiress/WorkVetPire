@@ -1,6 +1,6 @@
 using System;
 
-namespace VetPireWork.Models
+namespace VetPireWork.Models.ViewModels
 {
     public class ErrorViewModel
     {

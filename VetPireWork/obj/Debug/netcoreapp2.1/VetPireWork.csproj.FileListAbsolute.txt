@@ -10,7 +10,6 @@ D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\bin\D
 D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\bin\Debug\netcoreapp2.1\VetPireWork.Views.pdb
 D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.AssemblyInfoInputs.cache
 D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.AssemblyInfo.cs
-D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.csproj.CoreCompileInputs.cache
 D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.RazorAssemblyInfo.cache
 D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.RazorAssemblyInfo.cs
 D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.TagHelpers.input.cache
@@ -33,3 +32,6 @@ D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\D
 D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.pdb
 D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.genruntimeconfig.cache
 D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.csproj.CopyComplete
+D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.csprojAssemblyReference.cache
+D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\VetPireWork.csproj.CoreCompileInputs.cache
+D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\obj\Debug\netcoreapp2.1\Razor\Views\Department\Index.cshtml.g.cs

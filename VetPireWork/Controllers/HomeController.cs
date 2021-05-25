@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using VetPireWork.Models;
+using VetPireWork.Models.ViewModels;
 
 namespace VetPireWork.Controllers
 {
