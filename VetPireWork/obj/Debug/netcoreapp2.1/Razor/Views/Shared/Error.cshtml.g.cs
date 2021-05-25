@@ -13,9 +13,8 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-    using VetPireWork.Models.ViewModels;
 #line 1 "D:\Documentos\Documentos Pessoais\Gabriel\Projetos\VetPireWork\VetPireWork\Views\_ViewImports.cshtml"
-    using VetPireWork;
+using VetPireWork;
 
 #line default
 #line hidden
