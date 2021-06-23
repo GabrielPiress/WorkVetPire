@@ -26,6 +26,13 @@ namespace VetPireWork.Services
             return listSeller;
         }
 
+        public async Task<List<Seller>> FindAllAsync()
+        {
+            //Include faz parte do eager Loading carregar outros objetos associados ao objeto principal
+            var listSeller = await _context.Seller.Include(ob => ob.Department).ToListAsync(); //acessa a fonte de dados do Seller e faz o ToList();
+            return listSeller;
+        }
+
         public void Create(Seller seller)
         {
             seller.CreationDate = DateTime.Now;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,6 +20,11 @@ namespace VetPireWork.Services
         public List<Department> FindAll()
         {
             return _context.Department.OrderBy(x => x.Name).ToList();
+        }
+
+        public async Task<List<Department>> FindAllAsync()
+        {
+            return await _context.Department.OrderBy(x => x.Name).ToListAsync();
         }
 
         public string GetByIdName(int departmentId)
