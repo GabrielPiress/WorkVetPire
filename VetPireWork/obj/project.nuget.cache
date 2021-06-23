@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Dndg5+Fxk60ykxzCMzGVX/FVvAOegNtQCIR+p3GZJ8AoIjwqP9qsO6ReHxiWwgq3is6czwn+BTbOhI5aAkrmrg==",
+  "dgSpecHash": "ywiuI8plRdARe4mdbMtEhWIkbczq7A5TIMk1SZtrEEDfhlKSsGvMTXOZo8Wp47ph02JJb2GAISmuACjbTbKNDA==",
   "success": true,
   "projectFilePath": "D:\\Documentos\\Documentos Pessoais\\Gabriel\\Projetos\\VetPireWork\\VetPireWork\\VetPireWork.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gabriel\\.nuget\\packages\\jquery\\3.6.0\\jquery.3.6.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",

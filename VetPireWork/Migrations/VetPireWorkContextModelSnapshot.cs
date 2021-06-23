@@ -60,7 +60,7 @@ namespace VetPireWork.Migrations
 
                     b.Property<DateTime>("CreationDate");
 
-                    b.Property<int?>("DepartmentId");
+                    b.Property<int>("DepartmentId");
 
                     b.Property<string>("Email");
 
@@ -88,7 +88,8 @@ namespace VetPireWork.Migrations
                 {
                     b.HasOne("VetPireWork.Models.Department", "Department")
                         .WithMany("Sellers")
-                        .HasForeignKey("DepartmentId");
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

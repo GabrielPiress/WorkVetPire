@@ -7,22 +7,31 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using VetPireWork.Data;
 using VetPireWork.Models;
+using VetPireWork.Services;
 
 namespace VetPireWork.Controllers
 {
     public class DepartmentsController : Controller
     {
         private readonly VetPireWorkContext _context;
+        private readonly DepartmentService _departmentService;
 
-        public DepartmentsController(VetPireWorkContext context)
+        public DepartmentsController(VetPireWorkContext context,
+                                     DepartmentService departmentService)
         {
             _context = context;
+            _departmentService = departmentService;
         }
 
         // GET: Departments
         public async Task<IActionResult> Index()
         {
             return View(await _context.Department.ToListAsync());
+        }
+
+        public string GetByIdName(int departmentId)
+        {
+            return _departmentService.GetByIdName(departmentId);
         }
 
         // GET: Departments/Details/5
