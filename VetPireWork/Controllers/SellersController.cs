@@ -66,8 +66,14 @@ namespace VetPireWork.Controllers
         [HttpPost]
         public IActionResult Delete(int id)
         {
-            _sellerService.Delete(id);
-            return RedirectToAction("Index");
+            try
+            {
+                _sellerService.Delete(id);
+                return RedirectToAction("Index");
+            }catch(IntegrityException e)
+            {
+                return RedirectToAction("Error", new { message = e.Message });
+            }
         }
 
         public IActionResult Details(int? id)
