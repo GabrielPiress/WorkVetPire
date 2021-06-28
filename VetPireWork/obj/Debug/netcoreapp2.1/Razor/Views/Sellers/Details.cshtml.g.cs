@@ -152,7 +152,7 @@ using VetPireWork.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n\r\n        ");
             EndContext();
             BeginContext(876, 78, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02cc6999860e434bbf3eb0141ddf4743", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9dfa80b65994bd2a8f978126bcfec67", async() => {
                 BeginContext(946, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -188,7 +188,7 @@ using VetPireWork.Models;
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(964, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03c78ec955fa48fa9ebd8c80eea28860", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8fe2c7750d5441fd81ff597a56da7ae6", async() => {
                 BeginContext(986, 12, true);
                 WriteLiteral("Back To List");
                 EndContext();
